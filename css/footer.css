@@ -1,0 +1,36 @@
+footer{
+    height: 400px;
+    width: 100%;
+    background-color:  #90d4c5;
+}
+
+.logo-foot {
+    position: relative;
+    left: 44%;
+    margin: 70px 0 20px 0;
+    height: 35px;
+    width: 180px;
+
+}
+
+.menu-foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.b-foot {
+    color: hsl(168, 34%, 41%);
+    font-family: 'Barlow', sans-serif;
+    margin: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-logo {
+    margin: 120px 15px 0 15px;
+}

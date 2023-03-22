@@ -1,0 +1,54 @@
+.gp-design {
+    display: flex;
+    width: 100%;
+
+}
+
+.berry {
+    
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+   
+}
+
+.orange {
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.title-b {
+    color:  hsl(167, 40%, 24%);
+    font-family: 'Fraunces', serif;
+}
+
+.title-o {
+    color: hsl(198, 62%, 26%);
+    font-family: 'Fraunces', serif;
+}
+
+.p-berry, .p-orange {
+    margin: 40px;
+    width: 400px;
+    margin-bottom: 80px;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    color:hsl(213, 9%, 39%);
+}
