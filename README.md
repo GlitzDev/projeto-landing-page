@@ -25,7 +25,7 @@
 
 ---
 
->### Preview
+>### _Preview_
 ![image](https://user-images.githubusercontent.com/119053161/227234996-8aa2fad2-cdd7-4c0a-bcb5-eeddf29a918f.png)
 
-Para ver o projeto <a href="https://glitzdev.github.io/projeto-landing-page/">Click aqui.</a>
+Para ver o projeto <a href="https://glitzdev.github.io/projeto-landing-page/" target="_blank">Click aqui.</a>
