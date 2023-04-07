@@ -12,16 +12,22 @@
   
   - _Flexbox_
   
+  - _Grid Template_
+  
   - _@media query_
   
   - _JavaScript_
+  
+  - _BEM_
+  
+  - _SMACSS_
   
   ---
   
 >### _Resumo_
 
 <p> Este foi mais um desafio feito do site <a href="https://www.frontendmentor.io/">Frontend Mentor</a>, em que é necessario fazer uma Landing Page usando Html , Css e JavaScript na sua montagem.</p>
-<p> Ainda não fiz a parte responsiva do projeto 💨, mas, porem, entretanto, todavia...consegui finalizar o layout do desktop 😇, pretendo terminar essa parte responsiva logo😁.</p>
+<p> Com esse projeto eu pude aprender muito sobre JavaScript, apesar de ter usado poucas linhas do mesmo...😅 mas aprendi bastante sobre a liguagem, também desenvolvi meus conhecimentos na parte resposiva do site e utilizei boas praticas como BEM e SMACSS na sua montagem.</p>
 
 ---
 
