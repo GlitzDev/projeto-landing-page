@@ -1,58 +1,60 @@
-.client {
-    height: 700px;
-    width: 100%;
- 
-}
-
-.container-client {
+.l-container-client {
     display: flex;
-    width: 77vw;
-    height: 300px;
-    margin-left: 10%;
     align-items: center;
-    
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    height: 800px;
 }
 
-.title-client {
-    display: flex;
-    justify-content: center;
+.client__title {
     margin: 0 auto;
-    margin: 180px 0 150px 0;
-    width: 100%;
-    letter-spacing: 0.3rem;
+
+    letter-spacing: 5px;
     text-transform: uppercase;
     color: hsl(232, 10%, 55%);
     font-family: 'Fraunces', serif;
-    font-size: 22px;
+    font-size: 20px;
 }
 
-.img-client {
+.c-container-client {
+    display: flex;
+    
+    width: 75%;
+    height: 500px;
+}
+
+.client__photo {
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    margin-bottom: 80px;
 }
 
-.client1, .client2, .client3{
-    margin: 10px;
+.c-client__content, .c-client__content2, .c-client__content3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
     text-align: center;
     line-height: 30px;
     font-family: 'Barlow', sans-serif;
-    margin-bottom: 20px;
     
 }
 
-.client-name {
+.client__name {
+    display: flex;
+    flex-direction: column;
+
     font-family: 'Fraunces', serif;
-    margin-bottom: 10px;
     color:hsl(212, 27%, 19%);
 }
 
-.p-client {
-    margin-bottom: 60px;
+.client__p {
     color: hsl(213, 9%, 39%);
 }
 
-.prof {
+.client__prof {
+    font-size: 15px;
     color: hsl(232, 10%, 55%);
 }

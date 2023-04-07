@@ -16,141 +16,170 @@
   <link rel="stylesheet" href="./css/sect4.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/responsive.css">
+  
 
 </head>
 <body>
   
   <header>
-    
-    <div class="container">
-     
-       <nav class="nav-items">
-        <figure >
-         <img class="logo" src="./images/logo.svg" alt="Logo do site" width="180px" height="40px">
-        </figure>
-        <ul class="list-items">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-
+   
+       <nav class="header__nav">
         
-       </nav>  
-      
-       <div class="title">We are creatives</div>
-       <figure class="arrow">
+        <figure>
+         <img class="header__logo" src="./images/logo.svg" alt="Logo do site" width="180px" height="40px">
+        </figure>
+     
+        <div class="menu-mobile">
+          <div class="menu__bar" onclick="activeClick()">
+
+            <div class="menu__line1 line"></div>
+            <div class="menu__line2 line"></div>
+            <div class="menu__line3 line"></div>
+
+          </div>
+
+          <ul class="nav-items">
+            <li><a class="nav__link link" href="#">About</a></li>
+            <li><a class="nav__link link1" href="#">Services</a></li>
+            <li><a class="nav__link link2" href="#">Projects</a></li>
+            <li><a class="nav__link link3" href="#">Contact</a></li>
+          </ul>
+
+          <div class="menu__bg"></div>
+     
+        </div>
+      </nav>  
+
+      <div class="header-center">
+
+       <div class="header__title">We are creatives</div>
+
+       <figure>
        <img src="./images/icon-arrow-down.svg" alt="Flecha do logo">
       </figure>
+
+      </div>
+
+  </header> 
+
+  <main>
+
+    <section class="grid-container">
+
+      <div class="yellow-container">
+          <h1 class="yellow__title">Transform your brand</h1>
+
+          <p class="yellow__p"> We are a full-service creative agency specializing in helping brands grow fast. 
+      Engage your clients through compelling visuals that do most of the marketing for you.</p>
+
+          <div class="yellow-subline">
+            <h4 class="yellow__subtitle">Learn more</h4>
+          </div>
+      </div>
+
+      <div class="yellow__img"></div>
+
+     <div class="red-container">
+         <h1 class="red__title">Stand out to the right audience</h1>
+
+         <p class="red__p">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p> 
+
+           <div class="red-subline">
+              <h4 class="red__subtitle">Learn more</h4>
+           </div>
+      </div>
+
+      <div class="red__img"></div>
+
+    </section>
+
+<section class="design-container">
+
+  <div class="design__content">
+    <div class="design__u">
+      <h1 class="design__title">Graphic design</h1>
+      <p class="design__p"> Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+
+   </div>
+</div>
+
+  <div class="design__content2">
+    <div class="design__u">
+      <h1 class="design__title2">Photography</h1>
+      <p class="design__p2"> Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+    </div>
+</div>
+</section>
+
+</main>
+
+<section class="l-container-client">
+
+   <h1 class="client__title">Client testimonials</h1>
+
+    <div class="c-container-client">
+        <div class="c-client__content">
+
+        <figure><img class="client__photo" src="./images/image-emily.jpg" alt="Client"></figure>
+
+        <p class="client__p">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p> 
+        <h3 class="client__name">Emily R. <span class="client__prof">Marketing Director</span></h3>
        
     </div>
 
-<main>
-  </header> 
+    <div class="c-client__content2">
 
-<section class="yellow">
-    <div class="container-yellow">
-  <h1 class="title-yellow">Transform your brand</h1>
+        <figure><img class="client__photo" src="./images/image-thomas.jpg" alt="Client"></figure>
 
-  <p class="p-yellow"> We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.</p>
-
- <div class="subline-yellow">
-  <h4 class="l-yellow">Learn more</h4>
-</div>
-</div>
-</section>
-
-<section class="red">
-  <div class="container-red">
-
-  <h1 class="title-red">Stand out to the right audience</h1>
-
-  <p class="p-red">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p> 
-
-  <div class="subline-red">
-    <h4 class="l-red">Learn more</h4>
-  </div>
-</div>
-</section>
-
-<section class="gp-design">
-  <div class="berry">
-  <h1 class="title-b">Graphic design</h1>
-  <p class="p-berry"> Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-</div>
-
-  <div class="orange">
-  <h1 class="title-o">Photography</h1>
-  <p class="p-orange"> Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-</div>
-</section>
-
-<section class="client">
-
-   <h1 class="title-client">Client testimonials</h1>
-
-    <div class="container-client">
-    <div class="client1">
-
-      <figcaption ><img class="img-client" src="./images/image-emily.jpg" alt="Client"></figcaption>
-
-      <p class="p-client">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p> 
-      <h3 class="client-name">Emily R.</h3>
-      <h5 class="prof">Marketing Director</h5>
-    </div>
-
-    <div class="client2">
-
-      <figcaption><img class="img-client" src="./images/image-thomas.jpg" alt="Client"></figcaption>
-
-      <p class="p-client">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-      <h3 class="client-name">Thomas S.</h3>
-      <h5 class="prof">Chief Operating Officer</h5>
+        <p class="client__p">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+        <h3 class="client__name">Thomas S.<span class="client__prof">Chief Operating Officer</span></h3>
+        
     </div>
     
-    <div class="client3">
+    <div class="c-client__content3">
 
-      <figcaption ><img class="img-client" src="./images/image-jennie.jpg" alt="Client"></figcaption>
+        <figure><img class="client__photo" src="./images/image-jennie.jpg" alt="Client"></figure>
 
-      <p class="p-client">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-      <h3 class="client-name">Jennie F.</h3>
-      <h5 class="prof">Business Owner</h5>
+        <p class="client__p">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        <h3 class="client__name">Jennie F.<span class="client__prof">Business Owner</span></h3>
+        
     </div>
-  </div>
+ 
+    </div>
 
 </section>
 
-<section id="images">
+<section class="l-container-images">
 
-  <div class="image1"></div>
-  <div class="image2"></div>
-  <div class="image3"></div>
-  <div class="image4"></div>
+  <div class="c-container__image1"></div>
+  <div class="c-container__image2"></div>
+  <div class="c-container__image3"></div>
+  <div class="c-container__image4"></div>
 
 </section>
-</main>
+
 
 <footer>
 
-  <figure><img class="logo-foot" src="./images/logo.svg" alt="logo"></figure>
+  <figure><img class="footer__logo" src="./images/logo.svg" alt="logo"></figure>
 
-  <div class="menu-foot">
-    <a class="b-foot" href="#">About</a> 
-    <a class="b-foot" href="#">Services</a>
-    <a class="b-foot" href="#">Projects</a>
+  <div class="footer__menu">
+    <a class="footer__item" href="#">About</a> 
+    <a class="footer__item" href="#">Services</a>
+    <a class="footer__item" href="#">Projects</a>
   </div>
 
-  <div class="social">
-    <figcaption><img class="social-logo" src="./images/icon-facebook.svg" alt="Facebook"></figcaption>
-    <figcaption><img class="social-logo" src="./images/icon-instagram.svg" alt="Instagram"></figcaption>
-    <figcaption><img class="social-logo" src="./images/icon-twitter.svg" alt="Twitter"></figcaption>
-    <figcaption><img class="social-logo" src="./images/icon-pinterest.svg" alt="Pinterest"></figcaption>
+  <div class="footer__contact">
+    <figcaption><img class="contact__logo" src="./images/icon-facebook.svg" alt="Facebook"></figcaption>
+    <figcaption><img class="contact__logo" src="./images/icon-instagram.svg" alt="Instagram"></figcaption>
+    <figcaption><img class="contact__logo" src="./images/icon-twitter.svg" alt="Twitter"></figcaption>
+    <figcaption><img class="contact__logo" src="./images/icon-pinterest.svg" alt="Pinterest"></figcaption>
   </div>
 
 </footer>
 
   </div>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

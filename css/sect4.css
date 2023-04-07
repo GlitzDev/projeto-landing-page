@@ -1,37 +1,45 @@
-#images {
+.l-container-images{
     display: flex;
     height: 500px;
     width: 100%;
 }
 
-.image1, .image2, .image3, .image4 {
+.c-container__image1, .c-container__image2, .c-container__image3, .c-container__image4 {
     width: 25%;
 }
 
-.image1 {
+.c-container__image1 {
     background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
+    width: 100%;
+   
 }
 
-.image2 {
+.c-container__image2 {
     background-image: url(../images/desktop/image-gallery-orange.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
+    width: 100%;
+
 }
 
-.image3 {
+.c-container__image3 {
     background-image: url(../images/desktop/image-gallery-cone.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
+    width: 100%;
+
 }
 
-.image4 {
+.c-container__image4 {
     background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    width: 100%;
 
 }
